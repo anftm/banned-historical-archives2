@@ -132,9 +132,6 @@ export default {
           "陈冰"
         ],
         "page_start": 40,
-        "ocr": {
-          "vsplit": 0.2
-        },
         "page_end": 41,
         "dates": [
           {
@@ -142,7 +139,15 @@ export default {
             "month": 9,
             "day": 1
           }
-        ]
+        ],
+        "ocr": {
+          "vsplit": 0.2,
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "发扬正在飞速成长着的共产主义精神",
@@ -150,15 +155,20 @@ export default {
           "齐作文"
         ],
         "page_start": 41,
-        "ocr": {
-          "vsplit": 0.35
-        },
         "page_end": 42,
         "dates": [
           {
             "year": 1958
           }
-        ]
+        ],
+        "ocr": {
+          "vsplit": 0.35,
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "谈谈解放思想",

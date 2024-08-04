@@ -47,7 +47,14 @@ export default {
           }
         ],
         "page_start": 5,
-        "page_end": 6
+        "page_end": 6,
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "一个苦战了两年改变了面貌的合作社",
@@ -153,7 +160,14 @@ export default {
           }
         ],
         "page_start": 41,
-        "page_end": 48
+        "page_end": 48,
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "农具改良和技术革命",
