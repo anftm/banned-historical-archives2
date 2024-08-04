@@ -49,7 +49,14 @@ export default {
             "month": 6,
             "day": 1
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "毛泽东思想是我们革命事业的望远镜和显微镜",
@@ -92,4 +99,4 @@ export default {
   "path": "79570b44-6e88-4875-8247-b408ad91873d.pdf",
   "resource_type": "book",
   "version": 2
-}
+};

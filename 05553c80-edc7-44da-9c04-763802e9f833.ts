@@ -52,7 +52,12 @@ export default {
         "page_start": 6,
         "page_end": 20,
         "ocr": {
-          "vsplit": 0.35
+          "vsplit": 0.35,
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
         },
         "dates": [
           {
@@ -124,10 +129,10 @@ export default {
       {
         "title": "日常工作中的辩证法",
         "authors": [
-          "王培建",
-          "黄玉明",
+          "刘杰",
           "姜大洪",
-          "刘杰"
+          "王培建",
+          "黄玉明"
         ],
         "page_start": 54,
         "page_end": 58,
@@ -192,4 +197,4 @@ export default {
   "path": "05553c80-edc7-44da-9c04-763802e9f833.pdf",
   "resource_type": "book",
   "version": 2
-}
+};

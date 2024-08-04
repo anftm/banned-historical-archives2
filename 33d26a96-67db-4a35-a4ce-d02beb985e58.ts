@@ -42,7 +42,14 @@ export default {
             "month": 5,
             "day": 4
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "评《前线》《北京日报》的资产阶级立场",
@@ -158,4 +165,4 @@ export default {
   "path": "33d26a96-67db-4a35-a4ce-d02beb985e58.pdf",
   "resource_type": "book",
   "version": 2
-}
+};

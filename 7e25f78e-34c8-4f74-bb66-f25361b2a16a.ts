@@ -26,7 +26,14 @@ export default {
             "month": 1,
             "day": 1
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "苏共领导是宣言和声明的背叛者",
@@ -41,7 +48,14 @@ export default {
             "month": 12,
             "day": 30
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "高举毛泽东思想红旗做又会劳动又会创作的文艺战士",
@@ -156,4 +170,4 @@ export default {
   "path": "7e25f78e-34c8-4f74-bb66-f25361b2a16a.pdf",
   "resource_type": "book",
   "version": 2
-}
+};

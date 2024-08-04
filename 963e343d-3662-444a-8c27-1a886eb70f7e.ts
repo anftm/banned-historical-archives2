@@ -50,7 +50,14 @@ export default {
           {
             "year": 1966
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "彻底批判前北京市委一些主要负责人的修正主义路线",
@@ -66,8 +73,8 @@ export default {
       {
         "title": "周扬颠倒历史的一支暗箭——评《鲁迅全集》第六卷的一条注释",
         "authors": [
-          "阮铭",
-          "阮若瑛"
+          "阮若瑛",
+          "阮铭"
         ],
         "page_start": 37,
         "page_end": 46,
@@ -113,4 +120,4 @@ export default {
   "path": "963e343d-3662-444a-8c27-1a886eb70f7e.pdf",
   "resource_type": "book",
   "version": 2
-}
+};

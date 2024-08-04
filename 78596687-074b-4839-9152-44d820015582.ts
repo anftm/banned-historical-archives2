@@ -36,7 +36,14 @@ export default {
           {
             "year": 1966
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "大搞学习毛主席著作的群众运动，加速农民思想的无产阶级革命化——广东农村开展学习毛主席著作的群众运动的基本情况和经验",
@@ -54,8 +61,8 @@ export default {
       {
         "title": "评孙冶方反动的政治立场和经济纲领",
         "authors": [
-          "梦奎",
-          "晓林"
+          "晓林",
+          "梦奎"
         ],
         "page_start": 27,
         "page_end": 38,
@@ -72,9 +79,9 @@ export default {
       {
         "title": "坚决铲除侯外庐论汤显祖剧作的三株大毒草",
         "authors": [
-          "王恩宇",
           "唐宇元",
-          "孟祥才"
+          "孟祥才",
+          "王恩宇"
         ],
         "page_start": 39,
         "page_end": 50,
@@ -103,4 +110,4 @@ export default {
   "path": "78596687-074b-4839-9152-44d820015582.pdf",
   "resource_type": "book",
   "version": 2
-}
+};

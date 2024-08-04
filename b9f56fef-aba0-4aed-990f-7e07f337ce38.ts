@@ -167,7 +167,12 @@ export default {
         ],
         "page_start": 42,
         "ocr": {
-          "vsplit": 0.35
+          "vsplit": 0.35,
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
         },
         "page_end": 43,
         "dates": [
@@ -209,4 +214,4 @@ export default {
   "path": "b9f56fef-aba0-4aed-990f-7e07f337ce38.pdf",
   "resource_type": "book",
   "version": 2
-}
+};

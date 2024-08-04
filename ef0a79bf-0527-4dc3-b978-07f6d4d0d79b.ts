@@ -162,7 +162,14 @@ export default {
             "month": 6,
             "day": 1
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "文艺问题上两种认识论的斗争",
@@ -209,4 +216,4 @@ export default {
   "path": "ef0a79bf-0527-4dc3-b978-07f6d4d0d79b.pdf",
   "resource_type": "book",
   "version": 2
-}
+};

@@ -42,7 +42,14 @@ export default {
             "month": 2,
             "day": 20
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "中共中央一九六四年二月二十七日给苏共中央的信",
@@ -57,7 +64,14 @@ export default {
             "month": 2,
             "day": 27
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "中共中央一九六四年二月二十九日给苏共中央的信",
@@ -102,7 +116,14 @@ export default {
             "month": 2,
             "day": 22
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "苏共中央一九六四年三月七日给中共中央的信",
@@ -134,4 +155,4 @@ export default {
   "path": "a47145ad-1032-4d7f-837c-4df8e1fc64be.pdf",
   "resource_type": "book",
   "version": 2
-}
+};

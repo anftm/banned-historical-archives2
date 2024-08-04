@@ -40,7 +40,14 @@ export default {
             "year": 1961,
             "month": 3
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "解决轻工业原料供应问题的途径",
@@ -153,4 +160,4 @@ export default {
   "path": "ae5ca463-4e1f-4a97-ba6c-b3c1123005fa.pdf",
   "resource_type": "book",
   "version": 2
-}
+};

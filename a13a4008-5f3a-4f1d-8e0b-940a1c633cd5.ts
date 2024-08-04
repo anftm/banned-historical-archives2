@@ -25,7 +25,14 @@ export default {
           }
         ],
         "page_start": 3,
-        "page_end": 4
+        "page_end": 4,
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "介绍一个合作社",
@@ -53,7 +60,14 @@ export default {
           }
         ],
         "page_start": 6,
-        "page_end": 12
+        "page_end": 12,
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "南斯拉夫修正主义是帝国主义政策的产物",
@@ -66,7 +80,14 @@ export default {
           }
         ],
         "page_start": 13,
-        "page_end": 20
+        "page_end": 20,
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "关于美国经济危机",
@@ -79,7 +100,14 @@ export default {
           }
         ],
         "page_start": 21,
-        "page_end": 29
+        "page_end": 29,
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "劳动人民一定要做文化的主人",
@@ -92,7 +120,14 @@ export default {
           }
         ],
         "page_start": 30,
-        "page_end": 34
+        "page_end": 34,
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "新民歌开拓了诗歌的新道路",
@@ -131,7 +166,14 @@ export default {
           }
         ],
         "page_start": 48,
-        "page_end": 51
+        "page_end": 51,
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       }
     ],
     "ocr": {
@@ -202,4 +244,4 @@ export default {
   "path": "a13a4008-5f3a-4f1d-8e0b-940a1c633cd5.pdf",
   "resource_type": "book",
   "version": 2
-}
+};

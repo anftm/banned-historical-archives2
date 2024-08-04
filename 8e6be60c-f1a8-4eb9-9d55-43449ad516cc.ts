@@ -133,7 +133,14 @@ export default {
             "month": 2,
             "day": 1
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "用总路线的精神办钢铁工业——上海市多快好省发展钢铁生产的调查报告",
@@ -285,4 +292,4 @@ export default {
   "path": "8e6be60c-f1a8-4eb9-9d55-43449ad516cc.pdf",
   "resource_type": "book",
   "version": 2
-}
+};
